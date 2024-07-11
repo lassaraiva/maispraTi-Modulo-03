@@ -1,5 +1,5 @@
 const texto = document.getElementById('texto');
-const palavra = 'HELLOO';
+const palavra = 'HELLO WORLD!!';
 const binario = palavra.split('').map(char => char.charCodeAt(0).toString(2)).join(' ');
 
 let i = 0;
@@ -30,6 +30,18 @@ function displayThankYou() {
 window.onload = function() {
     displayThankYou();
 };
-function openContactPage() {
-    window.open("contact.html", "_blank");
-  } 
+
+//Dark-theme
+const toggleTheme = document.getElementById("toggleTheme");
+const rootHtml = document.documentElement
+
+function changeTheme(){
+  const currentTheme = rootHtml.getAttribute("data-theme");
+
+  currentTheme === "dark" ? rootHtml.setAttribute("data-theme", "light") : rootHtml.setAttribute("data-theme", "dark")
+
+  toggleTheme.classList.toggle("bi-sun")
+  toggleTheme.classList.toggle("bi-moon-stars")
+}
+
+toggleTheme.addEventListener("click", changeTheme);
