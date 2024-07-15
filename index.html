@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Jost:wght@300;400&display=swap">
@@ -27,22 +27,22 @@
     </nav>
 
     <div class="profile">
-        <div class="profile-text">
+        <div class="profile-text" style="padding-top: 8.125rem;">
           <h2 style="margin-left: 15%; margin-right: 0px;" id="texto"></h2>
-          <h1 style="margin-left: 15%; margin-right: 0px;">I'M LARISSA SARAIVA</h1>
+          <h1 style="margin-left: 15%; margin-right: 0px">I'M LARISSA SARAIVA</h1>
           <p style="margin-left: 15%;">A junior full stack developer</p>
           <p style="margin-right: 0%; margin-left: 15%; margin-top: 2%;" class="paragrafo">Having transitioned from engineering to the world of programming, I'm constantly on the hunt for new challenges and innovations. Let's embark on this adventure together, exploring new frontiers and creating groundbreaking solutions!</p>
         </div>
-        <div class="profile-image">
-          <img src="img/girlicon.png" alt="Your Image" style="max-width: 100%; height: auto; margin-right: 5%;">
+        <div class="profile-image"style=" padding-top: 8.125rem;">
+          <img src="assets/img/girlicon.png" alt="Pic" style="max-width: 100%; height: auto; margin-right: 5%;">
         </div>
       </div> 
-
-    <h1 id="about" style="margin-top: 8%;">ABOUT</h1>
-    <p class="paragrafo" style="margin-right: 15%;">I hold a bachelor's degree in Materials Engineering from the Federal University of Cariri (UFCA). To expand my knowledge and skills, I enrolled in the Systems Analysis and Development course at the Federal Institute of Paraíba (IFPB). Additionally, I am participating in some Full Stack Junior programs, where I am further enhancing my knowledge and skills in technology. My training has been providing me with extensive knowledge in various programming languages, development tools, and analysis methodologies. I am always on the lookout for opportunities to learn more and stay updated with the latest trends and innovations in the technology field.
+    </div>
+    <h1 id="about" style=" padding-top: 8.125rem;">ABOUT</h1>
+    <p class="paragrafo" style="margin-right: 15%;">I hold a bachelor's degree in Materials Engineering from the Federal University of Cariri (UFCA). To expand my knowledge and skills, I enrolled in the Systems Analysis and Development course at the Federal Institute of Paraíba (IFPB). Additionally, I am participating in some Full Stack Junior programs, where I am further enhancing my knowledge and skills in technology. My training has been providing me extensive knowledge in various programming languages, development tools, and analysis methodologies. I am always on the lookout for opportunities to learn more and stay updated with the latest trends and innovations in the technology field.
     </p>
 
-    <h1 id="tools" style="margin-top: 7%;">TOOLS AND LANGUAGES</h1>
+    <h1 id="tools" style=" padding-top: 8.125rem;">TOOLS AND LANGUAGES</h1>
     <div class="container">
         <div class="card">
             <p class="cardHeading">C</p>
@@ -85,31 +85,40 @@
         </div>
     </div>
 
-    <h1 id="projects" style="margin-top: 7%;">Projects</h1>
+    <h1 id="projects" style=" padding-top: 8.125rem;">Projects</h1>
     <p class="paragrafo">You can find more on my GitHub</p>
     <div style="display: flex; justify-content: flex-start; margin-left: 6%; margin-top: 3%; margin-right: 3%;">
         <div style="margin-right: 20px;" class="project-card">
-            <img src="img/todo.png" alt="Home Screenshoot">
+            <img src="assets/img/todo.png" alt="Home Screenshoot">
             <div class="project-info">
                 <h2>ToDo</h2>
-                <p>"ToDo" provides a user-friendly interface for managing various lists, including tasks, appointments, and shopping items. You can mark the task as done or remmove that</p>
-                <a href="https://lassaraiva.github.io/ToDo/" target="_blank">View</a>
+                <p>Manage your tasks, appointments, and shopping items.</p>
+                <a href="https://lassaraiva.github.io/ToDo-WebApp/" target="_blank">View</a>
             </div>
         </div>
 
-        <div class="project-card">
-            <img src="img/moodminder.png" alt="Home Screenshoot">
+       <!-- <div class="project-card">
+            <img src="assets/img/moodminder.png" alt="Home Screenshoot">
             <div class="project-info">
                 <h2>Mood Minder</h2>
                 <p>Through a series of quizzes, users can gain insights into their emotions and feelings, allowing them to better understand and manage their mental state. </p>
                 <a href="https://lassaraiva.github.io/MoodMinder/" target="_blank">View</a>
             </div>
         </div>
+    </div>-->
+       <div class="project-card">
+            <img src="assets/img/deco.png" alt="Home Screenshoot">
+            <div class="project-info">
+                <h2>Text Decoder</h2>
+                <p>A tool designed to both encode and decode text.</p>
+                <a href="https://lassaraiva.github.io/Challenge-Decodificador-T7-ONE/" target="_blank">View</a>
+            </div>
+        </div>
     </div>  
 
     <div id="thank-you"></div>
 
-    <section id="contact" class="contact-form" style="margin-top: 7%;">
+    <section id="contact" class="contact-form" style=" padding-top: 8.125rem;">
         <h1>Contact</h1>
         <div class="form-container">
             <form id="contactForm" class="contact-form" action="https://formspree.io/f/xqkrrowd" method="post">
@@ -124,7 +133,6 @@
             </form>
         </div>
     </section>
-
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 </html>
